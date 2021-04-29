@@ -1,0 +1,63 @@
+#glossary{
+    background: rgb(24,24,24);
+    background: -webkit-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: -o-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: linear-gradient(to right, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    max-width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.alpha{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.bot{
+    color: #000000;
+    font-size: 20px;
+}
+
+button.bot{
+  background:#ffeb00;
+  border-radius:3px;
+  border:none;
+  min-width:5rem;
+  padding:0 1rem;
+  min-height:3rem;
+  margin:1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+button.bot:hover{
+  background:#ff4400;
+    transition: 0.5s;
+}
+
+a.alpha_hover:hover{
+    color: #ffeb00;
+    font-size: 60px;
+    transition: 0.5s;
+}
+
+.alpha_hover{
+    color: white;
+}
+
+#glossary .bold-letter{
+    font-weight: bold;
+    color: #ffff7f;
+    font-size: 30px;
+}
