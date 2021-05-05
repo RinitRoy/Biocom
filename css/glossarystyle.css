@@ -1,10 +1,7 @@
 #glossary{
-    background: rgb(24,24,24);
-    background: -webkit-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: -o-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: linear-gradient(to right, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: #161616;
     max-width: 95%;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,6 +18,8 @@ html {
 .alpha{
     font-size: 40px;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -60,4 +59,8 @@ a.alpha_hover:hover{
     font-weight: bold;
     color: #ffff7f;
     font-size: 30px;
+}
+
+#biocominc {
+    font-size: 15px;
 }

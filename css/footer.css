@@ -1,15 +1,14 @@
 .new_footer_area {
-    background: rgb(24,24,24);
-    background: -webkit-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: -o-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: linear-gradient(to right, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: #161616;
+    width: 95%;
+    height: auto;
 }
 
 
 .new_footer_top {
     padding: 120px 0px 270px;
     position: relative;
-      overflow-x: hidden;
+    overflow-x: hidden;
 }
 .new_footer_area .footer_bottom {
     padding-top: 5px;
@@ -151,27 +150,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-    background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+    background: url("./img/medicalfront.gif") no-repeat center center;
     width: 330px;
-    height: 105px;
+    height: 300px;
   background-size:100%;
     position: absolute;
+    left: 41%;
     bottom: 0;
-    left: 30%;
-    -webkit-animation: myfirst 22s linear infinite;
-    animation: myfirst 22s linear infinite;
+    
 }
 
-.new_footer_top .footer_bg .footer_bg_two {
-    background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
-    width: 88px;
-    height: 100px;
-  background-size:100%;
-    bottom: 0;
-    left: 38%;
-    position: absolute;
-    -webkit-animation: myfirst 30s linear infinite;
-    animation: myfirst 30s linear infinite;
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .new_footer_top .footer_bg .footer_bg_one{
+        width: 300px;
+        height: 250px;
+        left: 5%;
+        bottom: -20px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .new_footer_top .footer_bg .footer_bg_one {
+        width: 300px;
+        height: 250px;
+        left: 35%;
+        bottom: -20px;
+    }
 }
 
 

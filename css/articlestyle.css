@@ -14,10 +14,7 @@
 
 
 body {
-    background: rgb(24,24,24);
-    background: -webkit-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: -o-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: linear-gradient(to right, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: #161616;
 }
 
 p {
@@ -35,10 +32,7 @@ a, a:hover, a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: rgb(24,24,24);
-    background: -webkit-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: -o-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: linear-gradient(to right, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: #161616;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -64,10 +58,7 @@ i, span {
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 812px) {
     body {
-    background: rgb(24,24,24);
-    background: -webkit-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: -o-linear-gradient(left, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
-    background: linear-gradient(to right, rgba(24,24,24,1) 15%, rgba(48,60,68,1) 58%, rgba(53,57,53,1) 100%);
+    background: #161616;
     background-attachment: fixed;
     }
     
