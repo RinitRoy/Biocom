@@ -28,6 +28,22 @@ nav{
     transition: 0.7s;
 }
 
+.navbar-light .navbar-collapse .dropdown .dropdown-menu{
+    background-color: #F5D10D;
+}
+
+.navbar-light .navbar-collapse .dropdown .dropdown-menu .dropdown-item{
+    color: black;
+    font-size: 25px;
+}
+
+.navbar-light .navbar-collapse .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .navbar-light .navbar-collapse .nav-link {
         font-size: 15px;

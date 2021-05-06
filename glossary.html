@@ -32,13 +32,19 @@
           <a class="nav-link" id="mainleft" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./articlepage.html">Article</a>
+          <a class="nav-link" href="./article.html">Article</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./glossary.html">Glossary</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">BioCom</a></li>
+            <li><a class="dropdown-item" href="#">Project Pandemic</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
@@ -54,6 +60,13 @@
  
   <img src="./css/img/logo.png" class="logo" alt="Main Logo"> 
   
+  
+<form action="javascript:" class="search-bar">
+	<input type="search" name="search" pattern=".*\S.*" required>
+	<button class="search-btn" type="submit">
+		<span>Search</span>
+	</button>
+</form>  
   
 
 <section id="glossary">
@@ -345,7 +358,7 @@
                                     <a href="#" class="fa fa-facebook" style="text-decoration: none"></a>
                                     <a href="#" class="fa fa-twitter" style="text-decoration: none"></a>
                                     <a href="#" class="fa fa-linkedin" style="text-decoration: none"></a>
-                                    <a href="#" class="fa fa-instagram" style="text-decoration: none"></a>
+                                    <a href="https://www.instagram.com/biocom_srm/" class="fa fa-instagram" style="text-decoration: none"></a>
                                 </div>
                             </div>
                         </div>
