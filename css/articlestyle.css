@@ -329,3 +329,22 @@
 .pop_para {
     color: #F6E71D;
 }
+
+/* ANIMATION */
+
+body{
+    animation: transitionIn 1s ease-in;
+    
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
