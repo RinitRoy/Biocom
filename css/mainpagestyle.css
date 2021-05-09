@@ -12,7 +12,7 @@ nav{
 
 .navbar-light .navbar-collapse .nav-link {
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 30px;  
 }
 
@@ -34,7 +34,7 @@ nav{
 
 .navbar-light .navbar-collapse .dropdown .dropdown-menu .dropdown-item{
     color: black;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .navbar-light .navbar-collapse .dropdown .dropdown-menu .dropdown-item:hover{
@@ -264,6 +264,8 @@ nav{
 }
 
 
+
+
 /* ARTICLE CARDS */
 
 .articlecards{
@@ -358,6 +360,57 @@ nav{
     .articlecards .card-body .card-title{
         font-size: 18px;
     }
+}
+
+
+/* BACK TOP TOP BUTTON */
+
+#button-top {
+  display: inline-block;
+  background-color: #F6E71D;
+    text-decoration: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+
+#button-top::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #ffffff;
+}
+#button-top:hover {
+  cursor: pointer;
+  background-color: #171717;
+    border: 3px solid #F6E71D;
+}
+#button-top:active {
+  background-color: #555;
+}
+#button-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+@media (min-width: 500px) {
+  #button-top {
+    margin: 30px;
+  }
 }
 
 
