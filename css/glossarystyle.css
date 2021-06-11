@@ -1,0 +1,107 @@
+#glossary{
+    background: #161616;
+    max-width: 75%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.alpha{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.bot{
+    color: #000000;
+    font-size: 20px;
+}
+
+button.bot{
+  background:#ffeb00;
+  border-radius:3px;
+  border:none;
+  min-width:5rem;
+  padding:0 1rem;
+  min-height:3rem;
+  margin:1rem;
+  font-weight: 500;
+  outline:none;
+}
+
+button.bot:hover{
+  background:#ff4400;
+    transition: 0.5s;
+}
+
+a.alpha_hover:hover{
+    color: #ffeb00;
+    font-size: 60px;
+    transition: 0.5s;
+}
+
+.alpha_hover{
+    color: white;
+}
+
+#glossary .bold-letter{
+    font-weight: bold;
+    color: #ffff7f;
+    font-size: 30px;
+}
+
+#biocominc {
+    font-size: 15px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+    p{
+    font-size: 20px;
+    }
+    
+    #glossary .bold-letter{
+        font-size: 25px;
+    }
+    
+    button.bot{
+        min-width:3rem;
+        min-height:2rem;
+    }
+    
+    .bot{
+    font-size: 18px;
+    }
+}
+
+
+
+/* ANIMATION */
+
+body{
+    animation: transitionIn 1s ease-in;
+    
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
